@@ -1,0 +1,200 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Dec 19 10:38:43 2019] ***
+compiled with version: 7.4.0 on 19 December 2019 01:11:52
+os: Linux-4.15.0-72-generic #81-Ubuntu SMP Tue Nov 26 12:20:02 UTC 2019
+nodename: xinnan-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xinnan/Desktop/blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/xinnan/.virtualenvs/blog/bin/uwsgi
+chdir() to /home/xinnan/Desktop/blog
+your processes number limit is 7707
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.8 (default, Oct  7 2019, 12:59:55)  [GCC 8.3.0]
+Set PythonHome to /home/xinnan/.virtualenvs/blog
+Python main interpreter initialized at 0x558f5b722590
+python threads support enabled
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Dec 19 10:57:10 2019] ***
+compiled with version: 7.4.0 on 19 December 2019 01:11:52
+os: Linux-4.15.0-72-generic #81-Ubuntu SMP Tue Nov 26 12:20:02 UTC 2019
+nodename: xinnan-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xinnan/Desktop/blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/xinnan/.virtualenvs/blog/bin/uwsgi
+chdir() to /home/xinnan/Desktop/blog
+your processes number limit is 7707
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37697 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Oct  7 2019, 12:59:55)  [GCC 8.3.0]
+Set PythonHome to /home/xinnan/.virtualenvs/blog
+Python main interpreter initialized at 0x55d0f4ce9f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /blog/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4807)
+spawned uWSGI worker 1 (pid: 4808, cores: 2)
+spawned uWSGI worker 2 (pid: 4809, cores: 2)
+spawned uWSGI worker 3 (pid: 4810, cores: 2)
+spawned uWSGI worker 4 (pid: 4811, cores: 2)
+spawned uWSGI http 1 (pid: 4812)
+--- no python application found, check your startup logs for errors ---
+[pid: 4809|app: -1|req: -1/1] 127.0.0.1 () {44 vars in 891 bytes} [Thu Dec 19 10:57:38 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4809|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 10:57:38 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4810|app: -1|req: -1/3] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 10:59:10 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4811|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 10:59:10 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4810|app: -1|req: -1/5] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 11:04:44 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4811|app: -1|req: -1/6] 127.0.0.1 () {46 vars in 871 bytes} [Thu Dec 19 11:04:44 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4810|app: -1|req: -1/7] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 11:04:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4808|app: -1|req: -1/8] 127.0.0.1 () {46 vars in 871 bytes} [Thu Dec 19 11:04:46 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4809|app: -1|req: -1/9] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 11:04:47 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4811|app: -1|req: -1/10] 127.0.0.1 () {46 vars in 871 bytes} [Thu Dec 19 11:04:47 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4810|app: -1|req: -1/11] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 11:11:03 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 4811|app: -1|req: -1/12] 127.0.0.1 () {46 vars in 871 bytes} [Thu Dec 19 11:11:03 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4812)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Dec 19 11:12:09 2019] ***
+compiled with version: 7.4.0 on 19 December 2019 01:11:52
+os: Linux-4.15.0-72-generic #81-Ubuntu SMP Tue Nov 26 12:20:02 UTC 2019
+nodename: xinnan-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xinnan/Desktop/blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/xinnan/.virtualenvs/blog/bin/uwsgi
+chdir() to /home/xinnan/Desktop/blog
+your processes number limit is 7707
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41769 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Oct  7 2019, 12:59:55)  [GCC 8.3.0]
+Set PythonHome to /home/xinnan/.virtualenvs/blog
+Python main interpreter initialized at 0x556ea5935d90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x556ea5935d90 pid: 5114 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5114)
+spawned uWSGI worker 1 (pid: 5116, cores: 2)
+spawned uWSGI worker 2 (pid: 5117, cores: 2)
+spawned uWSGI worker 3 (pid: 5118, cores: 2)
+spawned uWSGI worker 4 (pid: 5119, cores: 2)
+spawned uWSGI http 1 (pid: 5120)
+[pid: 5118|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 922 bytes} [Thu Dec 19 11:12:20 2019] GET / => generated 11462 bytes in 555 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5118|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 831 bytes} [Thu Dec 19 11:12:20 2019] GET /static/css/bootstrap.min.css => generated 77 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5118|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 812 bytes} [Thu Dec 19 11:12:20 2019] GET /static/js/bootstrap.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5118|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 802 bytes} [Thu Dec 19 11:12:20 2019] GET /static/js/pace.min.js => generated 77 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5119|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 817 bytes} [Thu Dec 19 11:12:20 2019] GET /static/css/custom.css => generated 77 bytes in 173 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5119|app: 0|req: 2/6] 127.0.0.1 () {42 vars in 813 bytes} [Thu Dec 19 11:12:20 2019] GET /static/css/pace.css => generated 77 bytes in 182 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5116|app: 0|req: 2/8] 127.0.0.1 () {42 vars in 798 bytes} [Thu Dec 19 11:12:20 2019] GET /static/js/script.js => generated 77 bytes in 138 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5116|app: 0|req: 2/8] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 11:12:20 2019] GET /static/js/modernizr.custom.js => generated 77 bytes in 162 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5117|app: 0|req: 1/9] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 11:12:20 2019] GET /static/js/jquery-2.1.3.min.js => generated 77 bytes in 195 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5116|app: 0|req: 3/10] 127.0.0.1 () {42 vars in 812 bytes} [Thu Dec 19 11:12:21 2019] GET /static/js/bootstrap.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5117|app: 0|req: 2/11] 127.0.0.1 () {42 vars in 802 bytes} [Thu Dec 19 11:12:21 2019] GET /static/js/pace.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5118|app: 0|req: 5/12] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 11:12:21 2019] GET /static/js/modernizr.custom.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5118|app: 0|req: 6/13] 127.0.0.1 () {42 vars in 798 bytes} [Thu Dec 19 11:12:21 2019] GET /static/js/script.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5119|app: 0|req: 3/14] 127.0.0.1 () {42 vars in 818 bytes} [Thu Dec 19 11:12:21 2019] GET /favicon.ico => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5120)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Dec 19 13:39:57 2019] ***
+compiled with version: 7.4.0 on 19 December 2019 01:11:52
+os: Linux-4.15.0-72-generic #81-Ubuntu SMP Tue Nov 26 12:20:02 UTC 2019
+nodename: xinnan-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xinnan/Desktop/blog
+writing pidfile to uwsgi.pid
+detected binary path: /home/xinnan/.virtualenvs/blog/bin/uwsgi
+chdir() to /home/xinnan/Desktop/blog
+your processes number limit is 7707
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.8 (default, Oct  7 2019, 12:59:55)  [GCC 8.3.0]
+Set PythonHome to /home/xinnan/.virtualenvs/blog
+Python main interpreter initialized at 0x5566fbce5ce0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5566fbce5ce0 pid: 12680 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12680)
+spawned uWSGI worker 1 (pid: 12684, cores: 2)
+spawned uWSGI worker 2 (pid: 12685, cores: 2)
+spawned uWSGI worker 3 (pid: 12686, cores: 2)
+spawned uWSGI worker 4 (pid: 12687, cores: 2)
+[pid: 12685|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 1028 bytes} [Thu Dec 19 13:40:22 2019] GET / => generated 11462 bytes in 356 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 12685|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 877 bytes} [Thu Dec 19 13:40:23 2019] GET /static/css/bootstrap.min.css => generated 77 bytes in 247 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12685|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 848 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/pace.min.js => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12685|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 844 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/script.js => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12687|app: 0|req: 2/5] 127.0.0.1 () {46 vars in 859 bytes} [Thu Dec 19 13:40:23 2019] GET /static/css/pace.css => generated 77 bytes in 207 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12687|app: 0|req: 2/6] 127.0.0.1 () {46 vars in 863 bytes} [Thu Dec 19 13:40:23 2019] GET /static/css/custom.css => generated 77 bytes in 208 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12684|app: 0|req: 2/7] 127.0.0.1 () {46 vars in 864 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/modernizr.custom.js => generated 77 bytes in 196 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12684|app: 0|req: 2/8] 127.0.0.1 () {46 vars in 864 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/jquery-2.1.3.min.js => generated 77 bytes in 214 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12686|app: 0|req: 1/9] 127.0.0.1 () {46 vars in 858 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/bootstrap.min.js => generated 77 bytes in 226 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12684|app: 0|req: 3/10] 127.0.0.1 () {46 vars in 848 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/pace.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12685|app: 0|req: 5/11] 127.0.0.1 () {46 vars in 864 bytes} [Thu Dec 19 13:40:23 2019] GET /static/js/modernizr.custom.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12687|app: 0|req: 3/12] 127.0.0.1 () {46 vars in 844 bytes} [Thu Dec 19 13:40:24 2019] GET /static/js/script.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12687|app: 0|req: 4/13] 127.0.0.1 () {50 vars in 968 bytes} [Thu Dec 19 13:56:53 2019] GET / => generated 11462 bytes in 155 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 12685|app: 0|req: 6/14] 127.0.0.1 () {50 vars in 1000 bytes} [Thu Dec 19 14:03:02 2019] GET /article/2 => generated 11154 bytes in 461 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 1)
+[pid: 12686|app: 0|req: 2/15] 127.0.0.1 () {50 vars in 1021 bytes} [Thu Dec 19 14:03:08 2019] GET /archive/2019/12 => generated 11462 bytes in 298 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
